@@ -11,7 +11,7 @@ setup(
     long_description=open("README").read(),
     license="Apache License 2.0",
     url="http://github.com/buriy/python-readability",
-    packages=['readability'],
+    packages=['readability_lxml'],
     install_requires=[
         "chardet",
         "lxml"
